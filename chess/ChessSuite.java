@@ -9,6 +9,6 @@ import chess.tests.PiecesSuite;
 @SelectClasses({
     PiecesSuite.class
     , MatchStructureTest.class
-    // , MatchTest.class
+    , MatchTest.class
 })
 public class ChessSuite {}

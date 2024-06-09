@@ -9,7 +9,7 @@ import java.lang.*;
 
 public abstract class Figure implements Actions {
     protected final Colors color;
-    public final Colors getColor() {
+    public Colors getColor() {
         return color;
     }
     protected int c = 0;
