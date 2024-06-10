@@ -38,7 +38,7 @@ public abstract class Figure implements Actions {
 
     public void checkPath(HashMap<String, Figure> map, int c, int r) throws IllegalMoveException {
         int currentC = this.c;
-        int currentR = this.c;
+        int currentR = this.r;
 
         while (currentC != c || currentR != r) {
             if (currentC - c > 0) {

@@ -25,8 +25,8 @@ public class MatchTest {
 
     @ParameterizedTest
     @CsvSource({
-        "a5 , DARK Rook a5",
-        "b1 , LIGHT Queen b1",
+        "a3 , DARK Pawn a3",
+        "d5 , LIGHT Queen d5",
     })
     public void afterRun(String pos, String result) {
         Match m = new Match("Chess5x5.txt");
